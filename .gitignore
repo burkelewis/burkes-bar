@@ -1,0 +1,14 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS-specific
+desktop.ini
+
+# Node or Python projects (not needed yet, but good habits)
+node_modules/
+.env
