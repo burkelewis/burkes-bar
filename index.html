@@ -9,52 +9,44 @@
 <body>
 <nav>
     <div class="logo">
-        <img src="burkes-bar-white.png" alt="Burke's Bar logo">
+        <img src="assets/burkes-bar-white.png" alt="Burke's Bar logo">
     </div>
     <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     <div class="links">
         <ul>
-            <li><a href="#">Recipes</a></li>
+            <li><a href="menu.html">Recipes</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Log In</a></li>
         </ul>
         </div>
 </nav>
 <section class="hero">
-    <img src="empty-bar.png" alt="An empty bar room">
+    <img src="assets/empty-bar.png" alt="An empty bar room">
     <div class="textbox">
         <h1>Welcome</h1>
         <p>to Burke's Bar</p>
-        <button class="hero-button" href="#">Get Mixing!</button>
+        <button class="hero-button" href="menu.html">Get Mixing!</button>
     </div>
 </section>
 <section class="spirits">
     <div class="spirit-card" href="#">
-        <img src="old-fashioned.jpg" alt="Old fashioned cocktail">
+        <img src="assets/old-fashioned.jpg" alt="Old fashioned cocktail">
         <h2>Whisky</h2>
         <p>For the classy</p>
     </div>
     <div class="spirit-card" href="#">
-        <img src="gin-basil-smash.jpg" alt="Gin Basil Smash">
+        <img src="assets/gin-basil-smash.jpg" alt="Gin Basil Smash">
         <h2>Gin</h2>
         <p>For the subtle</p>
     </div>
     <div class="spirit-card" href="#">
-        <img src="clarified-margarita.jpg" alt="Clarified margarita">
+        <img src="assets/clarified-margarita.jpg" alt="Clarified margarita">
         <h2>Tequila</h2>
         <p>For the expressive</p>
-    </div>
 </section>
 <footer>
     <p>© 2025 Burke Lewis. All rights reserved.</p>
 </footer>
-<script>
-    const toggle = document.getElementById("menu-toggle");
-    const links = document.querySelector("nav .links");
-
-    toggle.addEventListener("click", () => {
-        links.classList.toggle("active");
-    });
-</script>
+<script src="js/global.js"></script>
 </body>
 </html>
